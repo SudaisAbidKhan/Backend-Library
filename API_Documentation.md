@@ -53,6 +53,16 @@ https://localhost:4000/
 **URL:** `/api/book/update-book/:_id`  
 **Method:** `PUT`
 
+```json
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "genre": "Fiction",
+  "publishedYear": "1925-04-10T00:00:00.000Z",
+  "available": false
+}
+```
+
 ---
 
 ### Delete single Book
